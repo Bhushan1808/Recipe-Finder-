@@ -1,0 +1,20 @@
+.search-container{
+    background-color: darkgoldenrod;
+    height: 150px;
+    display: flex;
+
+    .search-recipe{
+        padding: 15px;
+        align-content: center;
+        flex: 1;
+
+        .search-recipe__input{
+            width: 70%;
+        }
+
+        .search-recipe__btn{
+            margin-left: 20px;
+            width: 20%;
+        }
+    }
+}
